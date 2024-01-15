@@ -1,0 +1,155 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.section1 {
+    display: flex;
+}
+.swiggynav{
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    /* margin: 30px 20px;
+    padding: 20px; */   
+}
+.swiggynav img{
+    height: 50px;
+    width: 179px;
+    margin-top: 25px;
+}
+#Login {
+    color: black;
+    font-weight: 600;
+    border: none;
+    background-color: white;
+    width: 73px;
+    height: 103px;
+}
+#Login:hover{
+    color: orange;
+}
+
+#signup{
+        border: 2px solid black;
+        background-color: black;
+        color: white;
+        width: 97px;
+        height: 42px;
+}
+.sec_1{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid green;
+    /* height: 480px; */
+    width: 750px;
+    margin: 50px 30px;  
+}
+div input{
+    width: 75%;
+    height: 62px;
+}
+
+#btnfindfood{
+    width: 23%;
+    height: 62px;
+    background-color: #fc8019;
+    color: white;
+    border: none;
+    font-size: large;
+    border-radius: ;
+}
+#heading{
+    margin-top: 40px;
+}
+
+.city {
+    display: flex;
+    justify-content: ;
+    /* gap: 10px; */
+    
+}
+.city li {
+    list-style-type: none;
+}
+
+.black{
+    color: rgb(43, 42, 42);
+}
+.grey{
+    color: gray;
+}
+.sec1_img {
+    background-image: url("https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_1340/Lunch1_vlksgq");
+    height: 480px;
+    width: 515px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 2px solid yellow;
+    
+}
+
+.section2 img{
+    height: 30px;
+    width: 50px;
+}
+.section2 {
+    display: flex;
+    background-color: #330c0c;
+    padding-left: 20px;
+    padding-bottom: 82px;
+}
+.item{     
+    margin-top:0px 40px;
+    padding-left: 40px 50px ;
+}
+
+.section2 img {
+    height: 80px;
+    width: 100px;
+}
+
+.section3 {
+    display: flex;
+}
+.section3 img{
+    width: 384px;
+    aspect-ratio: auto 384 / 489;
+    height: 489px;
+}
+
+.mobileheading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section4 {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+
+.section4 li {
+    list-style-type: none;
+}
+
+.img2 img {
+    height: 50px;
+    width: 150px;
+}
+
+.img2 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+h2,
+p {
+    color: white;
+}
+
+#order {
+    color: black;
+}
